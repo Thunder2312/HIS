@@ -1,0 +1,50 @@
+body {
+    background-color: #6a5acd;
+    background-image: linear-gradient(319deg, #6a5acd 0%, #c54b8c 37%, #b284be 100%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 20px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .button-wrapper {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
